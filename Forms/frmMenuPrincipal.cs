@@ -16,5 +16,10 @@ namespace Renta_De_Videos.Forms
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
