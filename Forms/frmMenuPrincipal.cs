@@ -21,5 +21,10 @@ namespace Renta_De_Videos.Forms
         {
 
         }
+
+        private void pagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
