@@ -52,10 +52,28 @@
     <Compile Include="Forms\frmMenuPrincipal.Designer.cs">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmRegistroVideos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRegistroVideos.Designer.cs">
+      <DependentUpon>frmRegistroVideos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRentas.Designer.cs">
+      <DependentUpon>frmRentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRegistroVideos.resx">
+      <DependentUpon>frmRegistroVideos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRentas.resx">
+      <DependentUpon>frmRentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -21,5 +21,21 @@ namespace Renta_De_Videos.Forms
         {
 
         }
+
+        private void pagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Menu principal a Rentas
+            frmRentas rentas = new frmRentas();
+            rentas.Show();
+            this.Hide();
+        }
+
+        private void registrarVideosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Menu principal a Registros
+            frmRegistroVideos registroVideos = new frmRegistroVideos();
+            registroVideos.Show();
+            this.Hide();
+        }
     }
 }

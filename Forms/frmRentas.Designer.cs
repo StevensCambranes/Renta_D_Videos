@@ -1,6 +1,6 @@
 ﻿namespace Renta_De_Videos.Forms
 {
-    partial class frmMenuPrincipal
+    partial class frmRentas
     {
         /// <summary>
         /// Required designer variable.
@@ -30,11 +30,7 @@
         {
             this.msNavegacion = new System.Windows.Forms.MenuStrip();
             this.pagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarVideosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.inventarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.msNavegacion.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,41 +38,18 @@
             // 
             this.msNavegacion.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pagoToolStripMenuItem,
-            this.registrarVideosToolStripMenuItem,
-            this.inventarioToolStripMenuItem,
-            this.reportesToolStripMenuItem,
-            this.ayudaToolStripMenuItem,
-            this.cerrarSesionToolStripMenuItem});
+            this.ayudaToolStripMenuItem});
             this.msNavegacion.Location = new System.Drawing.Point(0, 0);
             this.msNavegacion.Name = "msNavegacion";
             this.msNavegacion.Size = new System.Drawing.Size(800, 24);
-            this.msNavegacion.TabIndex = 3;
+            this.msNavegacion.TabIndex = 4;
             // 
             // pagoToolStripMenuItem
             // 
             this.pagoToolStripMenuItem.Name = "pagoToolStripMenuItem";
-            this.pagoToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
-            this.pagoToolStripMenuItem.Text = "Rentas";
+            this.pagoToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.pagoToolStripMenuItem.Text = "Menu";
             this.pagoToolStripMenuItem.Click += new System.EventHandler(this.pagoToolStripMenuItem_Click);
-            // 
-            // registrarVideosToolStripMenuItem
-            // 
-            this.registrarVideosToolStripMenuItem.Name = "registrarVideosToolStripMenuItem";
-            this.registrarVideosToolStripMenuItem.Size = new System.Drawing.Size(103, 20);
-            this.registrarVideosToolStripMenuItem.Text = "Registrar Videos";
-            this.registrarVideosToolStripMenuItem.Click += new System.EventHandler(this.registrarVideosToolStripMenuItem_Click);
-            // 
-            // reportesToolStripMenuItem
-            // 
-            this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.reportesToolStripMenuItem.Text = "Reportes";
-            // 
-            // cerrarSesionToolStripMenuItem
-            // 
-            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
-            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.cerrarSesionToolStripMenuItem.Text = "LogOut";
             // 
             // ayudaToolStripMenuItem
             // 
@@ -84,23 +57,16 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // inventarioToolStripMenuItem
-            // 
-            this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
-            this.inventarioToolStripMenuItem.Text = "Inventario";
-            // 
-            // frmMenuPrincipal
+            // frmRentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.msNavegacion);
-            this.MainMenuStrip = this.msNavegacion;
-            this.Name = "frmMenuPrincipal";
+            this.Name = "frmRentas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmMenuPrincipal";
+            this.Text = "frmRentas";
             this.msNavegacion.ResumeLayout(false);
             this.msNavegacion.PerformLayout();
             this.ResumeLayout(false);
@@ -109,12 +75,9 @@
         }
 
         #endregion
+
         private System.Windows.Forms.MenuStrip msNavegacion;
         private System.Windows.Forms.ToolStripMenuItem pagoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem registrarVideosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem inventarioToolStripMenuItem;
     }
 }
