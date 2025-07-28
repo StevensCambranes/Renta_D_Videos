@@ -17,22 +17,17 @@ namespace Renta_De_Videos.Forms
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void registrarRentaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void pagoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            // Menu principal a Rentas
+            // Menu a Registrar Renta
             frmRentas rentas = new frmRentas();
             rentas.Show();
             this.Hide();
         }
 
-        private void registrarVideosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void regsitroVideosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // Menu principal a Registros
+            // Menu a Registro Videos
             frmRegistroVideos registroVideos = new frmRegistroVideos();
             registroVideos.Show();
             this.Hide();
