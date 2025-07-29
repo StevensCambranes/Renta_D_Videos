@@ -47,5 +47,21 @@ namespace Renta_De_Videos.Forms
             frmSignIn signIn = new frmSignIn();
             signIn.Show();
         }
+
+        private void devoluciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Menu a Devolucion
+            frmDevolucion devolucion = new frmDevolucion();
+            devolucion.Show();
+            this.Hide();
+        }
+
+        private void moraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Menu a Mora
+            frmMora mora = new frmMora();
+            mora.Show();
+            this.Hide();
+        }
     }
 }
