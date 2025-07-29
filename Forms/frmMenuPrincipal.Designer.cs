@@ -50,6 +50,7 @@
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nuevoProveedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.msNavegacion.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -132,6 +133,7 @@
             // proveedoresToolStripMenuItem
             // 
             this.proveedoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nuevoProveedorToolStripMenuItem,
             this.proveedoresToolStripMenuItem1,
             this.comprarProductoToolStripMenuItem});
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
@@ -142,7 +144,7 @@
             // 
             this.proveedoresToolStripMenuItem1.Name = "proveedoresToolStripMenuItem1";
             this.proveedoresToolStripMenuItem1.Size = new System.Drawing.Size(192, 22);
-            this.proveedoresToolStripMenuItem1.Text = "Proveedores";
+            this.proveedoresToolStripMenuItem1.Text = "Lista Proveedores";
             // 
             // comprarProductoToolStripMenuItem
             // 
@@ -219,6 +221,12 @@
             this.verUsuariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.verUsuariosToolStripMenuItem.Text = "Ver Usuarios";
             // 
+            // nuevoProveedorToolStripMenuItem
+            // 
+            this.nuevoProveedorToolStripMenuItem.Name = "nuevoProveedorToolStripMenuItem";
+            this.nuevoProveedorToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.nuevoProveedorToolStripMenuItem.Text = "Nuevo Proveedor";
+            // 
             // frmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -261,5 +269,6 @@
         private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nuevoUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verUsuariosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nuevoProveedorToolStripMenuItem;
     }
 }
